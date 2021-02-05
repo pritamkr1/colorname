@@ -1,0 +1,36 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 10px rgba(109, 107, 107, 0.219);
+    padding: 20px 0;
+}
+nav h6{
+    text-align: center;
+    font-weight: 400;
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    ;
+}
+main h3{
+    background-color: #161d6f;
+    padding: 15px 35px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 300;
+    box-shadow: 3px 3px 5px 2px #161d6f73;
+    width: auto;
+    margin-bottom: 15px;
+}
